@@ -6,3 +6,4 @@ echo "Commit 2 - Still Working"
 
 echo "Commit 3 - Introduced a bug"
 
+echo "Commit 4 - Unrelated change"
