@@ -1,4 +1,6 @@
 def divide(a, b):
-    return a / b  # Simple division function
+    if b == 0:
+        return "Error: Division by zero"  # Prevents crash
+    return a / b
 
-print(divide(10, 2))  # Expected output: 5.0
+print(divide(10, 2))
