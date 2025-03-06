@@ -4,3 +4,5 @@ echo "Commit 1 - Working"
 
 echo "Commit 2 - Still Working"
 
+echo "Commit 3 - Introduced a bug"
+
