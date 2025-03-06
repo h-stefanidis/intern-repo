@@ -1,6 +1,4 @@
 def divide(a, b):
-    if b == 0:
-        return "Error: Division by zero"  # Prevents crash
-    return a / b
+    return a / b  # BUG: Removed division by zero check
 
-print(divide(10, 2))
+print(divide(10, 0))  # This will now cause a crash
