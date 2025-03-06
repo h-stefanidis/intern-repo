@@ -1,3 +1,6 @@
 echo "Hello, world!"
 
 echo "Commit 1 - Working"
+
+echo "Commit 2 - Still Working"
+
