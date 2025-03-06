@@ -10,4 +10,4 @@ The linter detected issues such as inconsistent indentation, unused variables, m
 
 ## Did formatting the code make it easier to read?
 
-Yes, proper formatting improved readability by maintaining consistent indentation, spacing, and structure. It made the logic clearer and reduced unnecessary complexity, making the code easier to understand and modify.
+Yes, proper formatting improved readability by maintaining consistent indentation, spacing, and structure. It made the logic clearer and reduced unnecessary complexity, making the code easier to understand and modify
