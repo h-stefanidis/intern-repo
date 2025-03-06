@@ -1,4 +1,4 @@
 def divide(a, b):
-    return a / b  # BUG: Removed division by zero check
+    return a / b
 
-print(divide(10, 0))  # This will now cause a crash
+print(divide(20, 5))  # Still has division by zero bug
