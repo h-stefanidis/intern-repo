@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
+  },
+  "lint-staged": {
+    "*.md": "markdownlint --fix"
+  },
+  "scripts": {
+  "prepare": "husky"
+}
+}
+
