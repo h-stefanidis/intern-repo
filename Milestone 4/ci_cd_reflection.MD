@@ -20,4 +20,4 @@ Automating style checks ensures consistency, reduces human error, and enforces b
 - **Small Projects:** Pipelines tend to be simpler, often focusing on basic linting, testing, and deployment automation. Fewer checks and faster build times make it easier to iterate quickly.
 - **Large Teams:** CI/CD pipelines are more complex, incorporating multiple test environments, security scans, and performance benchmarks. They often require parallel execution, advanced rollback mechanisms, and dedicated infrastructure to handle high traffic and multiple contributors.
 
-spelin eror test 2
+spelin eror test 3
