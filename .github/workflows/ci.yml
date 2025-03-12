@@ -19,11 +19,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Husky Permissions
+        run: chmod +x .husky/*
+
       - name: Run Markdown Lint
         run: npx markdownlint "**/*.md"
 
       - name: Run Spell Check
         run: npx cspell "**/*.md"
-
-      - name: Fix Husky Permissions
-        run: chmod +x .husky/*
