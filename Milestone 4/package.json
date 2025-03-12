@@ -1,13 +1,13 @@
 {
   "devDependencies": {
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "lint-staged": "^15.4.3"
   },
   "lint-staged": {
-    "*.md": "markdownlint --fix"
+    "*.md": "markdownlint --fix",
+    "*.js": "eslint --fix"
   },
   "scripts": {
-  "prepare": "husky"
+    "prepare": "husky && husky install"
+  }
 }
-}
-
