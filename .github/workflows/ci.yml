@@ -1,8 +1,8 @@
 name: CI - Markdown Lint and Spell Check
 
-on:
-  pull_request:
-    branches: [main]
+# on:
+#   pull_request:
+#     branches: [main]
 
 jobs:
   lint:
@@ -26,9 +26,9 @@ jobs:
         run: chmod +x .husky/*
 
         # Adjust this as necessary to lint and spell check the correct files
-    #   - name: Run Markdown Lint
-    #     run: npx markdownlint "Milestone*/*.MD" # Lint all markdown files in Milestone folders
+      - name: Run Markdown Lint
+        run: npx markdownlint "Milestone*/*.MD" # Lint all markdown files in Milestone folders
 
-    #   Adjust this as necessary to lint and spell check the correct files
-    #   - name: Run Spell Check
-    #     run: npx cspell "Milestone*/*.MD" # Spell check all markdown files in Milestone folders
+        # Adjust this as necessary to lint and spell check the correct files
+      - name: Run Spell Check
+        run: npx cspell "Milestone*/*.MD" # Spell check all markdown files in Milestone folders
