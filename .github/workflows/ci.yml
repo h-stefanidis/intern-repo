@@ -26,7 +26,7 @@ jobs:
         run: chmod +x .husky/*
 
       - name: Run Markdown Lint
-        run: npx markdownlint "Milestone*/*.MD"
+        run: npx markdownlint "Milestone*/*.MD" # Lint all markdown files in Milestone folders
 
       - name: Run Spell Check
-        run: npx cspell "Milestone*/*.MD"
+        run: npx cspell "Milestone*/*.MD" # Spell check all markdown files in Milestone folders
