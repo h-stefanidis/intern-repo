@@ -14,19 +14,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "16"
 
       - name: Install Dependencies
         run: npm install
 
-      - name: Markdownlint Permissions
-        run: chmod +x node_modules/.bin/markdownlint
-
-      - name: Husky Permissions
-        run: chmod +x .husky/*
-
       - name: Run Markdown Lint
-        run: npx markdownlint "Milestone*/*.MD" # Lint all markdown files in Milestone folders
+        run: npx markdownlint "**/*.md"
 
       - name: Run Spell Check
-        run: npx cspell "Milestone*/*.MD" # Spell check all markdown files in Milestone folders
+        run: npx cspell "**/*.md"
