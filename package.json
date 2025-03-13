@@ -14,5 +14,8 @@
       "npx cspell",
       "git add"
     ]
+  },
+  "dependencies": {
+    "puppeteer": "^24.4.0"
   }
 }
