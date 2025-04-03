@@ -14,6 +14,16 @@ A good PR is **clear, focused, and well-documented**. It should:
 - Be **tested** to ensure it doesn’t break existing functionality.
 - Follow the **team’s coding guidelines** and be free of unnecessary changes.
 
-## What did you learn from reviewing an open-source PR?
+## Which open-source commit did I review?
 
-Reviewing an open-source PR taught me the importance of **clear communication** in code contributions. Well-written PR descriptions make it easier to understand changes, and structured feedback improves collaboration. It also highlighted best practices like **commit organisation, meaningful comments, and thorough testing** before submitting code.
+I reviewed a commit in the **[OpenTest](https://github.com/mcdcorp/opentest)** repository titled _"Add filter for test templates"_. This commit introduced a filter functionality for test templates in the OpenTest framework, enhancing the user interface by allowing more efficient navigation and selection of test templates.
+
+**Key Changes:**
+
+- **Objective:** Improve the user experience by adding a filtering mechanism to the test templates section.
+- **Implementation:** Modified the `layout.pug` file to include the filter feature, resulting in 25 additions and 18 deletions in the codebase.
+- **Outcome:** Enabled users to quickly locate specific test templates, streamlining the process of creating sessions from templates.
+
+## What did you learn from reviewing this commit?
+
+Reviewing this commit highlighted the importance of user interface enhancements in test automation frameworks. Even small changes, like adding a filter, can significantly improve usability. It also underscored the value of clear commit messages and concise code changes in collaborative open-source projects.
